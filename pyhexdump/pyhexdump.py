@@ -96,5 +96,4 @@ if __name__ == "__main__":
 	data = fd.read()
 	data = bytearray(data)
 	fd.close()
-	print(data)
 	hexdump(data)

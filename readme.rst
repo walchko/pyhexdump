@@ -1,3 +1,5 @@
+.. figure:: pics/hexdump.png
+
 pyhexdump
 ==============
 
