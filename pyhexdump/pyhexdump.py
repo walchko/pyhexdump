@@ -27,7 +27,7 @@ def recover(a):
 		if 0x7e >= c >= 0x20:  # only print ascii chars
 			b.append(chr(c))
 		else:  # all others just replace with '.'
-			b.append(Fore.RED + '.' + Fore.RESET)
+			b.append(Fore.RED + '.' + Fore.GREEN)
 	ret = ''.join(b)
 	return ret
 
