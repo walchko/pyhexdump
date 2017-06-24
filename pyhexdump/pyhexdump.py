@@ -5,11 +5,11 @@ from colorama import Fore
 import argparse
 
 
-__version__ = '0.2.0'
+__version__ = '0.5.0'
 
 
 def handleArgs():
-	parser = argparse.ArgumentParser(description='A simple utility to parse files or data streams')
+	parser = argparse.ArgumentParser(description='A simple utility to parse files or data streams. license: MIT 2017 (c) Kevin J. Walchko')
 	parser.add_argument('-v', '--version', action='version', version=__version__)
 	parser.add_argument('file', help='file to be parsed')
 

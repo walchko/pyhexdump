@@ -1,4 +1,4 @@
-.. figure:: pics/hexdump.png
+.. figure:: https://raw.githubusercontent.com/walchko/pyhexdump/master/pics/hexdump.png
 
 pyhexdump
 ==============
